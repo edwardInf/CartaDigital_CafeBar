@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_carta"
+            android:icon="@drawable/carta_ic"
+            android:title="Carta" />
+        <item
+            android:id="@+id/nav_pedido"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Mi Pedido" />
+        <item
+            android:id="@+id/nav_eventos"
+            android:icon="@drawable/evento_ic"
+            android:title="Eventos" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_lock"
+            android:title="Log In" />
+        <item
+            android:id="@+id/nav_servicios"
+            android:icon="@drawable/login_ic"
+            android:title="Servicios" />
+        <item
+            android:id="@+id/nav_ganancia"
+            android:icon="@drawable/ic_dollar"
+            android:title="Ganancias" />
+    </group>
+
+
+
+</menu>
